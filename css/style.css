@@ -1,0 +1,271 @@
+<<<<<<< HEAD
+/* ..............navbar................. */
+
+#top_nav{
+    background-color:#daac00  !important;
+    padding:0 8%;
+}
+
+.navbar .navbar-nav .nav-link{
+    color:rgb(255,255,255)   !important;
+    font-size:20px  !important;
+    padding-left:25px  !important;
+}
+
+#searchbox{
+    background-color:#fcc302;
+    color:white;
+    border:0px;
+    border-radius:0;
+    position:relative;
+    left:47px;
+    box-shadow:5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder{
+    color:white;
+}
+#searchbtn{
+    position:relative;
+    z-index:99;
+    background-color:#00bec9;
+    border:0;
+    border-radius:0;
+    color:white;
+}
+
+@media only screen and (max-width:768px){
+      #searchform{
+        margin-bottom:30px;
+        margin-top:20px;
+        position:relative;
+        left:-20px;
+      }
+
+
+}
+
+@media only screen and (max-width:500px){
+    #top_nav{
+        padding:0;
+    }
+}
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom:20px;
+}
+
+#bannertext h1{
+    color:white;
+    font-size:70px;
+    margin-top:100px;
+}
+
+#bannertext p{
+    color:white;
+    font-size:20px;
+    margin-top:30px;
+    margin-bottom: 20px;;
+}
+
+
+#bannerbtn1{
+    color:white;
+    border:2px solid #00bec9;
+    background-color:#00bec9
+}
+
+#bannerbtn2{
+    color:white;
+    border: 2px solid white;
+    margin-left:15px;
+}
+
+
+@media only screen and ( max-width:1300px){
+#bannertext h1{
+    font-size:50px;
+}
+
+#banner{
+    padding-bottom: 70px;
+}
+}
+
+@media only screen and ( max-width:900px){
+#bannertext h1{
+    font-size:40px;
+}
+
+#bannerimg{
+    padding-bottom: 70px;
+}
+}
+
+/*  ##########################################  service  ######################################## */
+
+#servicetext{
+    padding-top:10%;
+    padding-bottom: 5%;
+}
+
+#servicebtn{
+    background-color: #fcc302;
+    color:white;
+    border:2px solid #fcc302;
+}
+
+#service-image{
+ padding:15%;
+}
+
+
+@media only screen and (max-widthL768px)
+{
+   #service-image{
+ padding:10%;
+}
+ 
+}
+
+
+/* ###############   counter section  ############### */
+
+#counter-section{
+    background-image: url("../images/header-image.jpg");
+    padding-top:50px;
+    background-position: center;
+    background-size:cover;
+    padding-bottom:30px;;
+    background-color: #fcc302;
+}
+.counter-icon{
+    font-size:70px;
+}
+
+@media only screen and (max-width:500px)
+{
+   .counter-icon{
+    font-size:10px;
+} 
+}
+
+
+/* ############################  Blog  ############################### */
+
+
+#blog{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+blog-title{
+    font-size:50px;
+    font-weight:bolder;
+}
+
+#blog{
+    font-size:20px;
+    margin-bottom:70px;
+}
+
+
+.article-detail{
+    padding:15px;
+    border:1px solid rgb(185,185,185);
+    border-top:0;
+
+}
+
+.article-date ,.article-link{
+    color:#00bec9;
+}
+
+
+/* ##########################################  footer ######################################## */
+#footer{
+ background-color:#343434;
+ padding-top:80px;
+ padding-bottom:80px;
+}
+
+#footer a{
+    color:white;
+    text-decoration: none;;
+}
+
+
+#footer-form{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#footer-searchbox{
+ background-color:#fcc302;
+ color:white;
+ border:0;
+ padding:10px;
+ width:100%;
+ max-width:250px;
+ position:relative;
+ left:6px;
+}
+
+#footer-searchsubmit{
+background-color: #00bec9;
+color:white;
+border:0;
+border-radius:0;
+padding:10px 40px;
+
+}
+
+.social-icon{
+    font-size:25px;
+    padding-left:5px;
+}
+
+
+@media only screen and (max-width:1150px)
+{
+    #footer-searchbox{
+        max-width:200px;
+    }
+
+
+}
+
+@media only screen and (max-width:768px)
+{
+    #footer-searchbox{
+        max-width:120px;
+    }
+
+
+}
+
+@media only screen and (max-width:500px)
+{
+    #footer-searchbox{
+        max-width:200px;
+    }
+
+#footer{
+    padding-top:10px;
+}
+
+#footer h4{
+    padding-top:50px;
+}
+=======
+
+
+.text-black {
+    
+    color:black  !important;
+    font-weight: 400 !important;
+>>>>>>> ccbf8942e7dc46bcbca5fa188bb26517f75bcdcf
+}
